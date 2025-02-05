@@ -20,7 +20,7 @@ $I_y =$ $\lfloor j \div 360 \rfloor$ \
 $a = (j \div 360) - I_y$ \
 $I_m =$ $\lfloor a \times 12 \rfloor$ \
 $b = (a \times 12) - I_m$ \
-$I_d =$ $\lfloor b \times 30 \rfloor$ \
+$I_d =$ $\lfloor b \times 30 \rfloor$ 
 
 
 ### Converting IS to Gregorian
@@ -35,7 +35,4 @@ $b = I_m + a$ \
 $c = b \div 12$ \
 $d = I_y + c$ \
 $e = (d \times 360) + 2451544.5$ \
-$G_y$, $G_m$, $G_d$ $=gregorian(e)$ \
-
-
-
+$G_y$, $G_m$, $G_d$ $=gregorian(e)$ 
